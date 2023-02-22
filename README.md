@@ -29,8 +29,8 @@ The goal of this project is to create a game in 3D using raycasting. Ray-casting
 
    * Download the source file from the githbub.com into your local machine
    * naviagete to the Maze folder
-   * compile all source code ending with .c extension using the following flag
-       gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL"_image -o maze
+   * compile all source code ending with .c extension using the following flag:
+        gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL2_ttf -lSDL2_image -o maze
    * launch the executable file like ./maze if you want to use the deafualt map
    * launch the executabel file by passing the name of the map file if you want to provide your own map like ./maze map  here map if the name of the file
    * the system then displays the map & the game zone on the screen
