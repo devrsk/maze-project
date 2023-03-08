@@ -21,23 +21,23 @@ The goal of this project is to create a game in 3D using raycasting. Ray-casting
 ## How the project works
    * the project first creates the window and initialize the game with some default value
    * It then displays the map and the game zone to the user
-   * the user use some keys (like w, a, s, d, e & arrow keyes) to move & rotate the player
-   * the system continuesly check the input key provided by the user
-   * if an Escape key or Quit buttom clicked, it quite the game and destroy the window
+   * the user uses keys like (like w, a, s, d, e & arrow keyes) to move & rotate the player
+   * the system continously checks the input key provided by the user
+   * if an Escape key or Quit buttom is tapped or clicked, it quits the game and destroy the window
 
 ## System Usage
 
    * Download the source file from the githbub.com into your local machine
    * naviagete to the Maze folder
-   * compile all source code ending with .c extension using the following flag:
+   * compile all source codes ending with .c extension using the following flag:
         gcc -Wall -Werror -Wextra -pedantic ./src/*.c -lm $(sdl2-config --cflags --libs) -lSDL2_ttf -lSDL2_image -o maze
-   * launch the executable file like ./maze if you want to use the deafualt map
-   * launch the executabel file by passing the name of the map file if you want to provide your own map like ./maze map  here map if the name of the file
+   * launch the executable file like ./maze if you want to use the default map
+   * launch the executable file by passing the name of the map file if you want to provide your own map like "./maze map"  here map is the name of your file
    * the system then displays the map & the game zone on the screen
-   * Press Upper arrow key or w key to move the player to upper positon
-   * press down arrow key or s key to move to the player to down postion
-   * press left arrow key or a key to rotate the player in counter clock wise direction
-   * press right arrow key or d key to rotate the player in clock wise direction
+   * Press up arrow key or w key to move the player to upper positon
+   * press down arrow key or s key to move the player to down postion
+   * press left arrow key or a key to rotate the player in counter clockwise direction
+   * press right arrow key or d key to rotate the player in clockwise direction
    * press e key to open the door
    * press Escape key or click Quit button to exit the game
 
